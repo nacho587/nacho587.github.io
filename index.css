@@ -80,6 +80,7 @@
             display: flex;
              align-items: center;
             justify-content: center;
+            width: 100%;
         }
 
 
@@ -129,6 +130,7 @@
             height: 2.5em;
             padding: 0.5em;
             transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            width: 100%;
           }
 
           .menu > li {
@@ -324,15 +326,10 @@ font-size: 1.5em;
 
         }
 
-        #principal{
-
-        }
-
-
 }
 
 
- @media(max-width: 800px)
+ @media(max-width: 730px)
 {
     #titulo{
         margin: 0px;

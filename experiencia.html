@@ -9,14 +9,30 @@
     <title>Document</title>
 </head>
 <body>
-   <header>
-    <div id="menu">
-        <a class="btn-info" href="index.html" role="button">principal</a>
-        <a class="btn-info" href="experiencia.html" role="button">experiencia</a>
-        <a class="btn-info" href="estudios.html" role="button">estudios</a>
-        <a class="btn-info" href="competencias.html" role="button">competencias</a>
-    </div>
-</header>
+  
+        <header class="head">
+            <div id="botones">
+                <a class="btn-info" href="index.html" role="button">principal</a>
+                <a class="btn-info" href="experiencia.html" role="button">experiencia</a>
+                <a class="btn-info" href="estudios.html" role="button">estudios</a>
+                <a class="btn-info" href="competencias.html" role="button">competencias</a>
+            </div>
+
+                <div id="hamburguesa">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+
+                    <ul class="menu">
+                      <li><a class="Hbtn-info" href="index.html" role="button">principal</a></li>
+                      <li><a class="Hbtn-info" href="experiencia.html" role="button">experiencia</a></li>
+                      <li><a class="Hbtn-info" href="estudios.html" role="button">estudios</a></li>
+                      <li> <a class="Hbtn-info" href="competencias.html" role="button">competencias</a></li>
+                    </ul>
+                </div>
+        </header>
+
 
     <h1 id="titulo">Experiencica laboral</h1>
     
@@ -25,7 +41,7 @@
         <h2>PROGRAMADOR, CRM GO</h2>
         <p id="texto">Logre implementar varios sistemas y programe diferentes características particulares que pedían los clientes para complementar al sistema inicial</p>
     </div>
-    <footer><p id="texto">Derechos Reservados Al Autor</p></footer>
+    <footer><p id="footer">Derechos Reservados Al Autor</p></footer>
 
 </body>
 </html>

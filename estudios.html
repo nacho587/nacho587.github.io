@@ -9,26 +9,42 @@
     <title>Document</title>
 </head>
 <body>
-   <header>
-    <div id="menu">
-        <a class="btn-info" href="index.html" role="button">principal</a>
-        <a class="btn-info" href="experiencia.html" role="button">experiencia</a>
-        <a class="btn-info" href="estudios.html" role="button">estudios</a>
-        <a class="btn-info" href="competencias.html" role="button">competencias</a>
-    </div>
-</header>
+ <header class="head">
+            <div id="botones">
+                <a class="btn-info" href="index.html" role="button">principal</a>
+                <a class="btn-info" href="experiencia.html" role="button">experiencia</a>
+                <a class="btn-info" href="estudios.html" role="button">estudios</a>
+                <a class="btn-info" href="competencias.html" role="button">competencias</a>
+            </div>
+
+                <div id="hamburguesa">
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                        <div class='menu-button'></div>
+                    </label>
+
+                    <ul class="menu">
+                      <li><a class="Hbtn-info" href="index.html" role="button">principal</a></li>
+                      <li><a class="Hbtn-info" href="experiencia.html" role="button">experiencia</a></li>
+                      <li><a class="Hbtn-info" href="estudios.html" role="button">estudios</a></li>
+                      <li> <a class="Hbtn-info" href="competencias.html" role="button">competencias</a></li>
+                    </ul>
+                </div>
+        </header>
+
+
     <h1 id="titulo">Estudios</h1>
-    <div class="info">
+    <div id="info">
     <h3>finalizado en el año 2022</h3> 
     <h2>SECUNDARIO, SWORN COLLAGE </h2>
-    <p class="texto">En el colegio tuve la oportunidad de aprobar diferentes exámenes adicionales que ofrecían como el first y los igcse con reconocimiento internacional</p>
+    <p >En el colegio tuve la oportunidad de aprobar diferentes exámenes adicionales que ofrecían como el first y los igcse con reconocimiento internacional</p>
 </div>
-<div class="info">
+<div id="info">
     <h3>2023-2027</h3>
     <h2>LICENCIATURA EN SISTEMAS, UADE</h2>
-    <p class="texto">En porceso</p>
+    <p >En porceso</p>
 </div>
-    <footer><p class="texto">Derechos Reservados Al Autor</p></footer>
+    <footer><p id="footer">Derechos Reservados Al Autor</p></footer>
 
 </body>
 </html>
