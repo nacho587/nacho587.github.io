@@ -170,6 +170,13 @@ a{text-decoration: none;
     font-size: 20px;
 }
 
+#principal{
+    height: 70%;
+}
+#footer{
+    height: 15%;
+}/*??*/
+
 
     body{
         padding: 0px;
@@ -200,7 +207,7 @@ a{text-decoration: none;
 
     #info{
         width: 60%;
-        height:   25%;
+        height:   15%;
         color: #FFF3E2;
        /* margin-left: 20px;*/
         display: inline-block;
@@ -350,7 +357,7 @@ font-size: 1.5em;
     }
     header{
         height:160px ;
-  }
+  }/*??*/
       
  }
 
