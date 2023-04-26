@@ -140,7 +140,7 @@
             padding: 0.5em 0;
             width: 100%;
             color: white;
-            background-color: #222;
+            background-color: #0E0E0E;
             z-index: 10;
           }
 
@@ -185,7 +185,7 @@ a{text-decoration: none;
     body{
         padding: 0px;
         margin: 0px;
-        background-color: #007A78;
+        background-color:#007A78;
     }
 
     #botones{
@@ -198,7 +198,7 @@ a{text-decoration: none;
 
     .btn-info{
         border-radius: 15px;
-        background-color: #262626;
+        background-color: #0E0E0E;
         margin-inline: 5%;
         height: 40px;
         width: 120px;
@@ -269,7 +269,7 @@ img {
 }
 
 header{
-background-color:#044182 ;
+background-color: #044182 ;
 height: 70px;
 width: 100%;
 display: flex;
