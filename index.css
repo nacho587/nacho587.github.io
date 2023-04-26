@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   visibility: collapse;
-
 }
 
 .menu > li {
@@ -45,7 +44,7 @@
   position: absolute;
   height: 4px;
   width: 30px;
-  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  transition: transform 400ms cubic-bezier(0.23, 0.1, 0.32, 1);
   border-radius: 2px;
 }
 
@@ -121,15 +120,16 @@
             margin: 0;
             padding: 0;
             border: 0;
-            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            transition: height 400ms cubic-bezier(0.23, 0.1, 0.32, 1);
             visibility: visible;
+
           }
 
           #menu-toggle:checked ~ .menu li {
             border: 1px solid #333;
             height: 2.5em;
             padding: 0.5em;
-            transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+            transition: height 400ms cubic-bezier(0.23, 0.1, 0.32, 1);
             width: 100%;
           }
 
@@ -287,7 +287,7 @@ width: 100%;
 display: flex;
 justify-content: center;
 justify-items: center;
-position: relative;
+position: absolute;
 bottom: 0px;
  }
 
@@ -308,7 +308,11 @@ font-size: 1.5em;
 
 }
 
+    @media(max-width 900px){
+        footer{position: relative;
 
+}
+}
 @media(max-width:680px)
     {
         .imagenA{
@@ -342,6 +346,9 @@ font-size: 1.5em;
 
  @media(max-width: 730px)
 {
+    footer{
+        position: relative;
+    }
     #titulo{
         margin: 0px;
     }
